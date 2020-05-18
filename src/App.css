@@ -76,3 +76,8 @@
   font-size: 5em;
   padding: 8px;
 }
+
+.projects-grid {
+  display: flex;
+  padding-top: 3em;
+}
