@@ -17,6 +17,23 @@ class Landing extends Component {
                 HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Express |
                 MongoDB | mySQL
               </p>
+
+              <div className="social-links">
+                <a
+                  href="https://github.com/nick-hernstedt"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-github"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/nick-hernstedt/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-linkedin-square"></i>
+                </a>
+              </div>
             </div>
           </Cell>
         </Grid>
