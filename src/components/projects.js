@@ -12,8 +12,8 @@ import {
 class Projects extends Component {
   render() {
     return (
-      <div>
-        <div className="projects-grid">
+      <div className="resume-background">
+        <div className="projects-grid" style={{ paddingTop: "100px" }}>
           <Card shadow={0} style={{ width: "512px", margin: "auto" }}>
             <CardTitle
               style={{

@@ -4,8 +4,8 @@ import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
 class Contact extends Component {
   render() {
     return (
-      <div className="contact-body">
-        <Grid className="contact-grid">
+      <div className="contact-body resume-background">
+        <Grid className="contact-grid" style={{ borderRadius: "15px" }}>
           <Cell col={6}>
             <h2>Nick Hernstedt</h2>
             <img
@@ -14,12 +14,15 @@ class Contact extends Component {
               style={{ height: "250px", borderRadius: "15px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic
+              Experienced Web Developer with a background in Environmental
+              Science, adept in all stages of advanced web development.
+              Knowledgeable in user interface, testing, and debugging processes.
+              Bringing forth expertise in design, installation, testing and
+              maintenance of web systems. Equipped with a diverse and promising
+              skill-set. Proficient in an assortment of technologies, including
+              JavaScript, CSS Frameworks, Node, HTML and React. Able to
+              effectively self-manage during independent projects, as well as
+              collaborate in a team setting.
             </p>
           </Cell>
           <Cell col={6}>
