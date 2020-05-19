@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Education from "./education";
+import Experience from "./experience";
 
 class Resume extends Component {
   render() {
@@ -82,6 +83,37 @@ class Resume extends Component {
             />
 
             <hr style={{ borderTop: "3px solid #26c2da" }} />
+
+            <h2> Experience</h2>
+            <Experience
+              startYear={"Dec - 2017"}
+              endYear={"Dec -2019"}
+              jobName={"Arcadis: Environmental Scientist"}
+              /*   jobDescription={"● Performed environmental site assessments and provided remediation
+                recommendations
+                ● Investigated accidents and analyzed root causes to develop corrective action
+                plans
+                ● Completed permit applications and maintained environmental permits
+                ● Interpreted test data to determine whether contamination existed in accordance
+                with environmental laws
+                ● Gathered environmental data, including water, air and soil contaminations"} */
+            />
+
+            <Experience
+              startYear={"Jan - 2016"}
+              endYear={"Nov -2019"}
+              jobName={"City of Roseville: Lab Technician"}
+              /*  ● Ran EPA Compliance Testing as well as QA/QC
+                ● Operated lab independently without supervision
+                ● Analyzed data to create and organize graphs, charts, and documents for
+                  publications and presentation
+                ● Identified abnormal test results and referred them to the shift operators for further
+                review
+                  ● Required meticulous data entry and management in various spreadsheets and
+                data entry programs
+                ● Performed both routine and emergency maintenance on laboratory instruments
+                and sample pumps */
+            />
           </Cell>
         </Grid>
       </div>
