@@ -59,7 +59,7 @@ class Resume extends Component {
             <hr stlye={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            Right Side
+            <h2>Education</h2>
           </Cell>
         </Grid>
       </div>
