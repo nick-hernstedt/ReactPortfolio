@@ -1,10 +1,70 @@
 import React, { Component } from "react";
+import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
 
 class Contact extends Component {
   render() {
     return (
-      <div>
-        <h1>Contact Page</h1>
+      <div className="contact-body">
+        <Grid className="contact-grid">
+          <Cell col={6}>
+            <h2>Nick Hernstedt</h2>
+            <img
+              src="myAvatar.png"
+              alt="avatar"
+              style={{ height: "250px", borderRadius: "15px" }}
+            />
+            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic
+            </p>
+          </Cell>
+          <Cell col={6}>
+            <h2>Contact Me</h2>
+            <hr />
+
+            <div className="contact-list">
+              <List>
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                  >
+                    <i className="fa fa-phone-square" aria-hidden="true" />
+                    (661)303-8765
+                  </ListItemContent>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                  >
+                    <i className="fa fa-envelope-square" aria-hidden="true" />
+                    nick.hernstedt@gmail.com
+                  </ListItemContent>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                  >
+                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                    <a
+                      style={{ color: "black", textDecoration: "none" }}
+                      href="https://www.linkedin.com/in/nick-hernstedt/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      linkedin.com/in/nick-hernstedt/
+                    </a>
+                  </ListItemContent>
+                </ListItem>
+              </List>
+            </div>
+          </Cell>
+        </Grid>
       </div>
     );
   }
