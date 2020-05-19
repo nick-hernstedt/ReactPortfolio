@@ -33,13 +33,37 @@ class Resume extends Component {
             <hr stlye={{ borderTop: "3px solid #833fb2", width: "50%" }} />
 
             <h5>Location</h5>
-            <p>Sacramento, CA</p>
+            <p>
+              {" "}
+              <i
+                className="fa fa-location-arrow"
+                style={{ fontSize: "25px", paddingRight: "3px" }}
+                aria-hidden="true"
+              />
+              Sacramento, CA
+            </p>
 
             <h5>Phone</h5>
-            <p>(661)303-8765</p>
+            <p>
+              {" "}
+              <i
+                className="fa fa-phone-square"
+                style={{ fontSize: "25px", paddingRight: "3px" }}
+                aria-hidden="true"
+              />{" "}
+              (661)303-8765
+            </p>
 
             <h5>Email</h5>
-            <p>nick.hernstedt@gmail.com</p>
+            <p>
+              {" "}
+              <i
+                className="fa fa-envelope-square"
+                style={{ fontSize: "25px", paddingRight: "3px" }}
+                aria-hidden="true"
+              />
+              nick.hernstedt@gmail.com
+            </p>
 
             <h5>GitHub</h5>
             <a
@@ -48,6 +72,11 @@ class Resume extends Component {
               rel="noopener noreferrer"
               target="_blank"
             >
+              <i
+                className="fa fa-github"
+                style={{ fontSize: "25px", paddingRight: "3px" }}
+                aria-hidden="true"
+              />
               github.com/nick-hernstedt
             </a>
 
@@ -58,6 +87,11 @@ class Resume extends Component {
               rel="noopener noreferrer"
               target="_blank"
             >
+              <i
+                className="fa fa-linkedin-square"
+                style={{ fontSize: "25px", paddingRight: "3px" }}
+                aria-hidden="true"
+              />{" "}
               linkedin.com/in/nick-hernstedt/
             </a>
 
