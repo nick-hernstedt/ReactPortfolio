@@ -4,8 +4,10 @@ class Education extends Component {
   render() {
     return (
       <div>
-        <h2>Education</h2>
+        <h1>{this.props.startYear}</h1>
       </div>
     );
   }
 }
+
+export default Education;
