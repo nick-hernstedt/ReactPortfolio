@@ -19,12 +19,15 @@ class Resume extends Component {
             <h4 style={{ color: "grey" }}>Programmer</h4>
             <hr stlye={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic
+              Experienced Web Developer with a background in Environmental
+              Science, adept in all stages of advanced web development.
+              Knowledgeable in user interface, testing, and debugging processes.
+              Bringing forth expertise in design, installation, testing and
+              maintenance of web systems. Equipped with a diverse and promising
+              skill-set. Proficient in an assortment of technologies, including
+              JavaScript, CSS Frameworks, Node, HTML and React. Able to
+              effectively self-manage during independent projects, as well as
+              collaborate in a team setting.
             </p>
             <hr stlye={{ borderTop: "3px solid #833fb2", width: "50%" }} />
 
@@ -61,7 +64,24 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
-            <Education />
+            <Education
+              startYear={2011}
+              endYear={2014}
+              schoolName="California State University Sacramento"
+              schoolDescription="Degree: B.S. Environmental Science"
+            />
+            <Education
+              startYear={2019}
+              endYear={2020}
+              schoolName="University of California Davis"
+              schoolDescription="Full Stack Web Developer Bootcamp"
+              moreInfo="A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3,
+              Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js &
+              ReactJS.
+              "
+            />
+
+            <hr style={{ borderTop: "3px solid #26c2da" }} />
           </Cell>
         </Grid>
       </div>
