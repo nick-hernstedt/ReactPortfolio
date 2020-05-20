@@ -20,7 +20,31 @@ class Resume extends Component {
               />
             </div>
             <h2 style={{ paddingTop: "15px" }}>Nick Hernstedt</h2>
-            <h4>Programmer</h4>
+            <h4>
+              Programmer{" "}
+              <div
+                style={{
+                  height: "35px",
+                  width: "180px",
+                  backgroundColor: "black",
+                  borderRadius: "15px",
+                  textAlign: "center",
+                  marginTop: "10px",
+                }}
+              >
+                <a
+                  style={{
+                    textDecoration: "none",
+                    color: "white",
+                    fontSize: "16px",
+                  }}
+                  href="resume.pdf"
+                >
+                  Resume: Click Here
+                </a>
+              </div>
+            </h4>
+
             <hr stlye={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
               Experienced Web Developer with a background in Environmental
