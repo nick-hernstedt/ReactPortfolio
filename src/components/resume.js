@@ -6,7 +6,7 @@ import Experience from "./experience";
 class Resume extends Component {
   render() {
     return (
-      <div>
+      <div style={{ color: "white" }}>
         <Grid className="resume-background">
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
@@ -20,7 +20,7 @@ class Resume extends Component {
               />
             </div>
             <h2 style={{ paddingTop: "15px" }}>Nick Hernstedt</h2>
-            <h4 style={{ color: "grey" }}>Programmer</h4>
+            <h4>Programmer</h4>
             <hr stlye={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
               Experienced Web Developer with a background in Environmental
@@ -70,7 +70,7 @@ class Resume extends Component {
 
             <h5>GitHub</h5>
             <a
-              style={{ color: "black", textDecoration: "none" }}
+              style={{ color: "white", textDecoration: "none" }}
               href="https://github.com/nick-hernstedt"
               rel="noopener noreferrer"
               target="_blank"
@@ -85,7 +85,7 @@ class Resume extends Component {
 
             <h5>LinkedIn</h5>
             <a
-              style={{ color: "black", textDecoration: "none" }}
+              style={{ color: "white", textDecoration: "none" }}
               href="https://www.linkedin.com/in/nick-hernstedt/"
               rel="noopener noreferrer"
               target="_blank"

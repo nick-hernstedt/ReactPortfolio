@@ -33,7 +33,11 @@ class Contact extends Component {
               <List>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                    style={{
+                      fontSize: "30px",
+                      fontFamily: "Anton",
+                      color: "white",
+                    }}
                   >
                     <i className="fa fa-phone-square" aria-hidden="true" />
                     (661)303-8765
@@ -42,7 +46,11 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                    style={{
+                      fontSize: "30px",
+                      fontFamily: "Anton",
+                      color: "white",
+                    }}
                   >
                     <i className="fa fa-envelope-square" aria-hidden="true" />
                     nick.hernstedt@gmail.com
@@ -51,11 +59,15 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                    style={{
+                      fontSize: "30px",
+                      fontFamily: "Anton",
+                      color: "white",
+                    }}
                   >
                     <i className="fa fa-linkedin-square" aria-hidden="true" />
                     <a
-                      style={{ color: "black", textDecoration: "none" }}
+                      style={{ color: "white", textDecoration: "none" }}
                       href="https://www.linkedin.com/in/nick-hernstedt/"
                       rel="noopener noreferrer"
                       target="_blank"
