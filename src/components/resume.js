@@ -19,7 +19,7 @@ class Resume extends Component {
                 }}
               />
             </div>
-            <h2 style={{ paddingTop: "1em" }}>Nick Hernstedt</h2>
+            <h2 style={{ paddingTop: "15px" }}>Nick Hernstedt</h2>
             <h4 style={{ color: "grey" }}>Programmer</h4>
             <hr stlye={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
@@ -126,31 +126,59 @@ class Resume extends Component {
               startYear={"Dec - 2017"}
               endYear={"Dec -2019"}
               jobName={"Arcadis: Environmental Scientist"}
-              /*   jobDescription={"● Performed environmental site assessments and provided remediation
-                recommendations
-                ● Investigated accidents and analyzed root causes to develop corrective action
-                plans
-                ● Completed permit applications and maintained environmental permits
-                ● Interpreted test data to determine whether contamination existed in accordance
-                with environmental laws
-                ● Gathered environmental data, including water, air and soil contaminations"} */
-            />
+            >
+              {" "}
+              <ul>
+                <li>
+                  Performed environmental site assessments and provided
+                  remediation recommendations
+                </li>
+                <li>
+                  Investigated accidents and analyzed root causes to develop
+                  corrective action plans
+                </li>
+                <li>
+                  Completed permit applications and maintained environmental
+                  permits
+                </li>
+                <li>
+                  Interpreted test data to determine whether contamination
+                  existed in accordance with environmental laws
+                </li>
+                <li>
+                  Gathered environmental data, including water, air and soil
+                  contaminations
+                </li>
+              </ul>
+            </Experience>
 
             <Experience
               startYear={"Jan - 2016"}
               endYear={"Nov -2019"}
               jobName={"City of Roseville: Lab Technician"}
-              /*  ● Ran EPA Compliance Testing as well as QA/QC
-                ● Operated lab independently without supervision
-                ● Analyzed data to create and organize graphs, charts, and documents for
-                  publications and presentation
-                ● Identified abnormal test results and referred them to the shift operators for further
-                review
-                  ● Required meticulous data entry and management in various spreadsheets and
-                data entry programs
-                ● Performed both routine and emergency maintenance on laboratory instruments
-                and sample pumps */
-            />
+            >
+              <ul>
+                <li> Ran EPA Compliance Testing as well as QA/QC</li>
+                <li> Operated lab independently without supervision</li>
+                <li>
+                  {" "}
+                  Analyzed data to create and organize graphs, charts, and
+                  documents for publications and presentation
+                </li>
+                <li>
+                  Identified abnormal test results and referred them to the
+                  shift operators for further review
+                </li>
+                <li>
+                  Required meticulous data entry and management in various
+                  spreadsheets and data entry programs
+                </li>
+                <li>
+                  Performed both routine and emergency maintenance on laboratory
+                  instruments and sample pumps{" "}
+                </li>
+              </ul>{" "}
+            </Experience>
           </Cell>
         </Grid>
       </div>
