@@ -26,7 +26,7 @@ class Resume extends Component {
                 style={{
                   height: "35px",
                   width: "180px",
-                  backgroundColor: "black",
+                  backgroundColor: "#27221f",
                   borderRadius: "15px",
                   textAlign: "center",
                   marginTop: "10px",
