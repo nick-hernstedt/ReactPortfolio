@@ -149,35 +149,29 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "200px",
-                background: "url(quiz.png) center / cover",
+                background: "url(bugout.png) center / cover",
               }}
             >
-              Triva Quiz
+              Bug-Out
             </CardTitle>
             <CardText style={{ textAlign: "center", marginBottom: "2px" }}>
               <span style={{ fontWeight: "bold" }}>
                 {" "}
-                A quiz to test your animal species knowledge{" "}
+                An app to help keep track of bugs you run into{" "}
               </span>
               <br />
               <span style={{ fontWeight: "bold" }}>Technologies Used</span>
               <br />
-              HTML5 | CSS3 | BootStrap 4 | Javascript | jQuery
+              HTML5 | CSS3 | React
             </CardText>
             <CardActions
               border
               style={{ display: "flex", justifyContent: "space-between" }}
             >
-              <Button
-                colored
-                href="https://github.com/nick-hernstedt/Trivia-Quiz"
-              >
+              <Button colored href="https://github.com/nick-hernstedt/bug-out">
                 GitHub
               </Button>
-              <Button
-                colored
-                href="https://nick-hernstedt.github.io/Trivia-Quiz/"
-              >
+              <Button colored href="https://get-the-bug-out.herokuapp.com/">
                 Live Demo
               </Button>
             </CardActions>

@@ -14,15 +14,15 @@ class Contact extends Component {
               style={{ height: "250px", borderRadius: "15px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Experienced Web Developer with a background in Environmental
+              Experienced web developer with a background in Environmental
               Science, adept in all stages of advanced web development.
               Knowledgeable in user interface, testing, and debugging processes.
-              Bringing forth expertise in design, installation, testing and
-              maintenance of web systems. Equipped with a diverse and promising
-              skill-set. Proficient in an assortment of technologies, including
-              JavaScript, CSS Frameworks, Node, HTML and React. Able to
-              effectively self-manage during independent projects, as well as
-              collaborate in a team setting.
+              With expertise in design, installation, testing and maintenance of
+              web systems. Equipped with a diverse and promising skill-set.
+              Proficient in an assortment of technologies, including JavaScript,
+              CSS Frameworks, Node, HTML and React. Able to effectively
+              self-manage during independent projects, as well as collaborate in
+              a team setting.
             </p>
           </Cell>
           <Cell col={6}>
@@ -40,7 +40,7 @@ class Contact extends Component {
                     }}
                   >
                     <i className="fa fa-phone-square" aria-hidden="true" />
-                    (661)303-8765
+                    (661) 303-8765
                   </ListItemContent>
                 </ListItem>
 
