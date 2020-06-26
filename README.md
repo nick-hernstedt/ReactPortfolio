@@ -8,7 +8,7 @@ https://app.netlify.com/sites/nicks-portfolio/overview
 
 # Technologies
 
-- React / HTML / CSS / 
+- React / HTML / CSS 
 
 # Contributors
 
