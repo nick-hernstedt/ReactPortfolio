@@ -2,8 +2,7 @@
 
 # Site URL
 
-https://app.netlify.com/sites/nicks-portfolio/overview
-
+https://nicks-portfolio.netlify.app/
 
 
 # Technologies
