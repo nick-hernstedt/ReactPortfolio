@@ -1,4 +1,18 @@
-A portfolio to showcase my skills.  Made with react
+# My Portfolio
+
+# Site URL
+
+https://app.netlify.com/sites/nicks-portfolio/overview
+
+
+
+# Technologies
+
+- React / HTML / CSS / 
+
+# Contributors
+
+- Nick Hernstedt 🐀: https://github.com/nick-hernstedt
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
