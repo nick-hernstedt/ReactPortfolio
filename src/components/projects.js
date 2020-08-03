@@ -44,10 +44,15 @@ class Projects extends Component {
               <Button
                 colored
                 href="https://github.com/nick-hernstedt/meal-mate"
+                target="_blank"
               >
                 GitHub
               </Button>
-              <Button colored href="https://meal--mate.herokuapp.com/">
+              <Button
+                colored
+                href="https://meal--mate.herokuapp.com/"
+                target="_blank"
+              >
                 Live Demo
               </Button>
             </CardActions>
@@ -83,10 +88,18 @@ class Projects extends Component {
               border
               style={{ display: "flex", justifyContent: "space-between" }}
             >
-              <Button colored href="https://github.com/nick-hernstedt/Up-Above">
+              <Button
+                colored
+                href="https://github.com/nick-hernstedt/Up-Above"
+                target="_blank"
+              >
                 GitHub
               </Button>
-              <Button colored href="https://nick-hernstedt.github.io/Up-Above/">
+              <Button
+                colored
+                href="https://nick-hernstedt.github.io/Up-Above/"
+                target="_blank"
+              >
                 LiveDemo
               </Button>
             </CardActions>
@@ -125,13 +138,15 @@ class Projects extends Component {
             >
               <Button
                 colored
-                href="https://github.com/nick-hernstedt/WeatherApp"
+                href="https://github.com/nick-hernstedt/WeatherApp "
+                target="_blank"
               >
                 GitHub
               </Button>
               <Button
                 colored
                 href="https://nick-hernstedt.github.io/WeatherApp/"
+                target="_blank"
               >
                 Live Demo
               </Button>
@@ -168,10 +183,18 @@ class Projects extends Component {
               border
               style={{ display: "flex", justifyContent: "space-between" }}
             >
-              <Button colored href="https://github.com/nick-hernstedt/bug-out">
+              <Button
+                colored
+                href="https://github.com/nick-hernstedt/bug-out"
+                target="_blank"
+              >
                 GitHub
               </Button>
-              <Button colored href="https://get-the-bug-out.herokuapp.com/">
+              <Button
+                colored
+                href="https://get-the-bug-out.herokuapp.com/"
+                target="_blank"
+              >
                 Live Demo
               </Button>
             </CardActions>
